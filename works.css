@@ -26,6 +26,17 @@
     height: 200px;
     width: 330px;
     background-size: cover;
+    position: relative;
+}
+.card-img::after{
+    content: "";
+    width: 330px;
+    height: 200px;
+    background-image: repeating-linear-gradient(45deg,#ffbe9a,#ffbe9a 2px,transparent 2px,transparent 6px);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: -1;
 }
 
 .card-text{
