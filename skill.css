@@ -1,0 +1,19 @@
+.title{
+    font-size: 4rem;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.part{
+    margin: 100px 60px;
+}
+
+.s-title{
+    font-size: 2rem;
+    margin: 20px 50px;
+}
+
+.description{
+    margin-left: 40px;
+    font-size: 1.3rem;
+}
